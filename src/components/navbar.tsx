@@ -22,7 +22,7 @@ const NavBar = () => {
       </SheetTrigger>
       <SheetContent>
         <DialogTitle className="sr-only">navigation side bar</DialogTitle>
-        <nav className="flex flex-col  justify-center h-full">
+        <nav className="flex flex-col justify-center h-full space-y-2">
           <SheetClose asChild>
             <Link href="/" className={`${isHome ? "text-2xl" : "text-lg"} transition-all`}>Home {isHome && "🔥"} </Link>
           </SheetClose>

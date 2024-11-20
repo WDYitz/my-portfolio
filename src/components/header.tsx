@@ -3,7 +3,7 @@ import NavBar from "./navbar";
 
 const Header = () => {
   return (
-    <header className="p-4 flex justify-end relative">
+    <header className="p-4 flex justify-end gap-2 relative">
       <NavBar />
       <FireEmojiAnimation />
     </header>

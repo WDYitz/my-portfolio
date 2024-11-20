@@ -13,6 +13,11 @@ export const techStack = [
   },
   {
     id: randomUUID,
+    name: "Expo",
+    icon: "expo.png",
+  },
+  {
+    id: randomUUID,
     name: "Javascript",
     icon: "javascript.png",
   },
@@ -76,5 +81,10 @@ export const techStack = [
     id: randomUUID,
     name: "Figma",
     icon: "figma.png",
+  },
+  {
+    id: randomUUID,
+    name: "JWT",
+    icon: "jwt.png",
   },
 ]
