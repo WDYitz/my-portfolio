@@ -1,5 +1,13 @@
 
-export const projectsData = [
+interface ProjectData {
+  name: string;
+  description: string;
+  image: string;
+  url: string;
+  mobile?: boolean
+}
+
+export const projectsData: ProjectData[] = [
   {
     name: "Finance AI",
     description: "Finance AI is a financial management platform that uses AI to monitor your transactions and provide personalized insights, making it easier to control your budget.",
@@ -10,7 +18,8 @@ export const projectsData = [
     name: "Neutral Commerce",
     description: "Neutral Commerce is a platform that sells eletronics and gadgets.",
     image: "/projects/default_image.png",
-    url: "https://github.com/WDYitz/Neutral-commerce"
+    url: "https://github.com/WDYitz/Neutral-commerce",
+    mobile: true
   },
   {
     name: "New Santos Food",

@@ -12,6 +12,7 @@ interface ProjectCardProps {
   description: string;
   url: string
   image?: string
+  isMobile?: boolean
 }
 
 const ProjectCard = forwardRef(function ProjectCardRef(props: ProjectCardProps, ref: LegacyRef<HTMLDivElement> | undefined) {
@@ -37,7 +38,13 @@ const ProjectCard = forwardRef(function ProjectCardRef(props: ProjectCardProps, 
                 </Button>
               </DialogTrigger>
               <DialogContent className="w-full h-full p-4 flex justify-center items-center">
-                <Image src={props.image ?? ""} alt={props.title} className="rotate-90 md:rotate-0" width={1200} height={100} />
+                <div className="absolute top-0 left-0 p-4 flex justify-center items-center md:opacity-0">
+                  <p className="text-sm w-28 mr-4">Use your fingers to zoom in</p>
+                  <Image src="/projects/zoom_in.png" alt="zoom in" width={70} height={100} className="bg-white rounded-full p-4" />
+                </div>
+                <div className={`relative w-[1200px] h-[250px] max-h-[400px] md:w-[500px] md:min-h-[290px] lg:w-[1200px] lg:min-h-[700px] ${props.isMobile ? "pt-20 md:rotate-0 w-[300px] h-full" : "rotate-90"} md:rotate-0 flex justify-center`}>
+                  <Image src={props.image ?? ""} alt={props.title} fill priority />
+                </div>
               </DialogContent>
             </Dialog>
           </div>
