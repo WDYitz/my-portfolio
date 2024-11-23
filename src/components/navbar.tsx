@@ -33,7 +33,6 @@ const NavBar = () => {
             <Link href="/projects" className={`${isProjects ? "text-2xl" : "text-lg"} transition-all`}>Projects {isProjects && "🔥"}</Link>
           </SheetClose>
         </nav>
-
       </SheetContent>
     </Sheet >
   );

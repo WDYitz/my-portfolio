@@ -21,7 +21,7 @@ const AboutMe = () => {
         if (element?.ariaLabel === "card") {
           element?.classList.add(animations[0], animations[1], animations[2], animations[3], animations[4], animations[5], animations[6], animations[7], animations[8], animations[9], animations[10], "opacity-100");
         }
-        element?.classList.add("motion-preset-slide-right", "opacity-100")
+        element?.classList.add("motion-preset-blur-left", "opacity-100")
       }, 200 * index);
     })
   }, [])
