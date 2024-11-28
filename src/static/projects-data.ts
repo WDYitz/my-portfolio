@@ -18,7 +18,7 @@ export const projectsData: ProjectData[] = [
     name: "Neutral Commerce",
     description: "Neutral Commerce is a platform that sells eletronics and gadgets.",
     image: "/projects/default_image.png",
-    url: "https://github.com/WDYitz/Neutral-commerce",
+    url: "https://neutral-e-commerce.vercel.app/",
     mobile: true
   },
   {
