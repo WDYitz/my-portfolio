@@ -5,7 +5,6 @@ import SubHeroSection from "./_components/sub-hero-section";
 import TechStackSection from "./_components/tech-stack-section";
 import initTranslations from "@/app/i18n";
 
-
 interface HomeProps {
   params: {
     locale: string
