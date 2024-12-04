@@ -1,0 +1,28 @@
+{
+  "Home": "Home",
+  "AboutMe": "Sobre mim",
+  "Projects": "Projetos",
+  "title": {
+    "1": "Desenvolvedor",
+    "2": "Fullstack"
+  },
+  "subtitle1": "Movido pelo desejo de aprender e inovar,",
+  "subtitle2": "Entusiasta de tecnologias de desenvolvimento web.",
+  "frontend": {
+    "description": "Como Desenvolvedor Front End, Meu foco é a construção de interfaces interativas e fáceis de usar usando bibliotecas e frameworks JavaScript modernos, com forte foco em React. Aproveitando os Hooks poderosos do React, como useState, useEffect e useContext, para gerenciar com eficiência os estados dos componentes, lidar com efeitos colaterais e o compartilhamento eficiente de estado global entre os componentes.",
+    "description2": "Me mantenho atualizado com as últimas tendências de desenvolvimento Front-End, refinando continuamente minhas habilidades com novos recursos, ferramentas e bibliotecas do React."
+  },
+  "backend": {
+    "description": "Como desenvolvedor back-end, foco na construção de serviços escalonáveis, eficientes e seguros usando Node.js. Aproveitando o poder do JavaScript do lado do servidor, utilizando bibliotecas como Express.js para construir APIs robustas, lidar com roteamento e gerenciar middleware de maneira eficaz. Tenho experiência na criação de serviços RESTful e também trabalho com Docker para Containerização e desenvolvimento de serviços.",
+    "description2": "Meu foco é escrever código limpo e modular e implementar estratégias adequadas de autenticação e autorização, como JWT (JSON Web Token), para proteger os endpoints das APIs."
+  },
+  "techStack": "Tecnologias e Ferramentas",
+  "projects": {
+    "title": "Aplicações React, APIs Node, Aplicações Experimentais",
+    "button": "Ver meus projetos"
+  },
+  "aboutMe": {
+    "title": "Quer saber mais sobre mim?",
+    "button": "Sobre mim"
+  }
+}

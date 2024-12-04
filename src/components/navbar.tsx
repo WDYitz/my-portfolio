@@ -2,16 +2,19 @@
 import { DialogTitle } from "@radix-ui/react-dialog";
 import { MenuIcon } from "lucide-react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { Button } from "./ui/button";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 
 const NavBar = () => {
   const pathname = usePathname();
+  const params = useParams()
+  const langPrefix = `/${params.locale}`
 
-  const isHome = pathname === "/";
-  const isAboutMe = pathname === "/about-me";
-  const isProjects = pathname === "/projects";
+
+  const isHome = pathname === langPrefix;
+  const isAboutMe = pathname === langPrefix + "/about-me";
+  const isProjects = pathname === langPrefix + "/projects";
 
   return (
     <Sheet>
@@ -24,13 +27,21 @@ const NavBar = () => {
         <DialogTitle className="sr-only">navigation side bar</DialogTitle>
         <nav className="flex flex-col justify-center h-full space-y-2">
           <SheetClose asChild>
-            <Link href="/" className={`${isHome ? "text-2xl" : "text-lg"} transition-all`}>Home {isHome && "🔥"} </Link>
+            <Link href="/" className={`${isHome ? "text-2xl" : "text-lg"} transition-all`}>
+              Home {isHome && "🔥"}
+            </Link>
           </SheetClose>
           <SheetClose asChild>
-            <Link href="/about-me" className={`${isAboutMe ? "text-2xl" : "text-lg"} transition-all`}>About Me {isAboutMe && "🔥"}</Link>
+            <Link href="/about-me" className={`${isAboutMe ? "text-2xl" : "text-lg"} transition-all`}>
+              {langPrefix === "/pt" ? "Sobre mim" : "About me"}
+              {isAboutMe && "🔥"}
+            </Link>
           </SheetClose>
           <SheetClose asChild>
-            <Link href="/projects" className={`${isProjects ? "text-2xl" : "text-lg"} transition-all`}>Projects {isProjects && "🔥"}</Link>
+            <Link href="/projects" className={`${isProjects ? "text-2xl" : "text-lg"} transition-all`}>
+              {langPrefix === "/pt" ? "Projetos" : "Projects"}
+              {isProjects && "🔥"}
+            </Link>
           </SheetClose>
         </nav>
       </SheetContent>

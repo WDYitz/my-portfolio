@@ -1,0 +1,28 @@
+{
+  "Home": "Home",
+  "AboutMe": "About Me",
+  "Projects": "Projects",
+  "title": {
+    "1": "Fullstack",
+    "2": "Developer"
+  },
+  "subtitle1": "Driven by the desire to learn and innovate,",
+  "subtitle2": "Enthusiast of web development technologies.",
+  "frontend": {
+    "description": "As a Front End Developer, I specialize in building interactive, user-friendly interfaces using modern JavaScript libraries and frameworks, with a strong focus on React. I leverage Reacts powerful hooks, such as useState, useEffect, and useContext, to efficiently manage component states, handle side effects, and share global state across components.",
+    "description2": "I stay updated with the latest trends in Front End development, continuously refining my skills with new React features, tools, and libraries."
+  },
+  "backend": {
+    "description": "As a Back End Developer, I focus on building scalable, efficient, and secure server-side applications using Node.js. I leverage the power of JavaScript on the server, utilizing frameworks like Express.js to build robust APIs, handle routing, and manage middleware effectively. I am experienced in creating RESTful services, and I also work with Docker for Containerizing services .",
+    "description2": "I also focus on writing clean, modular code and implementing proper authentication and authorization strategies, such as JWT (JSON Web Tokens), to secure APIs."
+  },
+  "techStack": "Tech Stack and Tools",
+  "projects": {
+    "title": "React apps, Node APIs, Experimental apps",
+    "button": "See my projects"
+  },
+  "aboutMe": {
+    "title": "Want to know more about me?",
+    "button": "About me"
+  }
+}
