@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
 
     <html lang="en">
-      <body className={`${poppins} antialiased dark overflow-x-hidden`}>
+      <body className={`${poppins} antialiased dark`}>
         <Header />
         {children}
       </body>

@@ -2,6 +2,8 @@ import initTranslations from "@/app/i18n";
 import TranslationProvider from "@/contexts/TranslationProvider";
 import AboutMe from "./_components/aboutMe";
 
+
+
 interface AboutMeWrapperProps {
   params: {
     locale: string
