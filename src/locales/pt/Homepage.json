@@ -8,13 +8,39 @@
   },
   "subtitle1": "Movido pelo desejo de aprender e inovar,",
   "subtitle2": "Entusiasta de tecnologias de desenvolvimento web.",
-  "frontend": {
-    "description": "Como Desenvolvedor Front End, Meu foco é a construção de interfaces interativas e fáceis de usar usando bibliotecas e frameworks JavaScript modernos, com forte foco em React. Aproveitando os Hooks poderosos do React, como useState, useEffect e useContext, para gerenciar com eficiência os estados dos componentes, lidar com efeitos colaterais e o compartilhamento eficiente de estado global entre os componentes.",
-    "description2": "Me mantenho atualizado com as últimas tendências de desenvolvimento Front-End, refinando continuamente minhas habilidades com novos recursos, ferramentas e bibliotecas do React."
+  "timeline": {
+    "senac": {
+      "title": "Curso Tecnico - Tecnologia da informação",
+      "date": "Agosto, 2021 - Agosto, 2023",
+      "description": "Curso técnico em Tecnologia da Informação, com foco em desenvolvimento de software e infraestrutura de TI."
+    },
+    "college": {
+      "title": "Faculdade Decomplica - Sistemas de Informação",
+      "date": "Março, 2022 - Março, 2026",
+      "description": "Global network, Desenvolvimento Mobile, Smart data structures, Data-base developer, Object-Oriented Developer, Internet of Things, Cloud."
+    },
+    "react": {
+      "title": "Desenvolvimento com React e Next.js",
+      "date": "Março, 2023",
+      "description": "Aprendizado de hooks avançados como useReducer, useCallback, memoização, UX/UI, performance, cache, SEO."
+    },
+    "node": {
+      "title": "Desenvolvimento com Node.js e Express.js",
+      "date": "Novembro, 2023",
+      "description": "Criação e consumo de APIs RESTful, integração com bancos de dados, autenticação e autorização, modelagem de banco de dados, segurança em aplicações web, utilização de ORMs."
+    },
+    "docker": {
+      "title": "Docker",
+      "date": "Fevereiro, 2024",
+      "description": "Aprendizado e prática em containerização de aplicações, criação de imagens Docker, gerenciamento de containers, orquestração com Docker Compose, integração com CI/CD."
+    }
   },
-  "backend": {
-    "description": "Como desenvolvedor back-end, foco na construção de serviços escalonáveis, eficientes e seguros usando Node.js. Aproveitando o poder do JavaScript do lado do servidor, utilizando bibliotecas como Express.js para construir APIs robustas, lidar com roteamento e gerenciar middleware de maneira eficaz. Tenho experiência na criação de serviços RESTful e também trabalho com Docker para Containerização e desenvolvimento de serviços.",
-    "description2": "Meu foco é escrever código limpo e modular e implementar estratégias adequadas de autenticação e autorização, como JWT (JSON Web Token), para proteger os endpoints das APIs."
+  "moreAboutMe": {
+    "title": "Mais sobre",
+    "description": "Experiência prática com bibliotecas e frameworks modernos como React, Next.js, Vite e React Native (Expo), além de trabalhar com conceitos como S.O.L.I.D, K.I.S.S e D.R.Y. No back-end, atuo com Node.js, Typescript, APIs REST, bancos relacionais e não-relacionais, ferramentas e tecnologias como ORMs (Prisma, Drizzle), Docker e arquiteturas como a Hexagonal."
+  },
+  "frontend": {
+    "description": "Experiência prática com bibliotecas e frameworks modernos como React, Next.js, Vite e React Native (Expo), além de trabalhar com conceitos como S.O.L.I.D, K.I.S.S e D.R.Y. No back-end, atuo com Node.js, Typescript, APIs REST, bancos relacionais e não-relacionais, ferramentas e tecnologias como ORMs (Prisma, Drizzle), Docker e arquiteturas como a Hexagonal."
   },
   "techStack": "Tecnologias e Ferramentas",
   "projects": {
