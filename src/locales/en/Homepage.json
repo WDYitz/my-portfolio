@@ -8,39 +8,13 @@
   },
   "subtitle1": "Driven by the desire to learn and innovate,",
   "subtitle2": "Enthusiast of web development technologies.",
-  "timeline": {
-    "senac": {
-      "title": "Technical Course – Information Technology",
-      "date": "August 2021 - August 2023",
-      "description": "Technical Course in Information Technology, with a focus on software development and IT infrastructure."
-    },
-    "college": {
-      "title": "Descomplica College – Information Systems",
-      "date": "March 2022 – March 2026",
-      "description": "Global Network, Mobile Development, Smart Data Structures, Database Development, Object-Oriented Programming, and Internet of Things (IoT), Cloud."
-    },
-    "react": {
-      "title": "Development with React and Next.js",
-      "date": "March 2023",
-      "description": "Learned advanced hooks such as useReducer, useCallback, and memoization, as well as concepts related to UX/UI, performance optimization, caching, and SEO."
-    },
-    "node": {
-      "title": "Development with Node.js and Express.js",
-      "date": "November 2023",
-      "description": "Focused on creating and consuming RESTful APIs, database integration, authentication and authorization, database modeling, web application security, and the use of ORMs."
-    },
-    "docker": {
-      "title": "Docker",
-      "date": "February 2024",
-      "description": "Learned and practiced application containerization, Docker image creation, container management, orchestration with Docker Compose, and integration with CI/CD pipelines."
-    }
-  },
-  "moreAboutMe": {
-    "title": "More about",
-    "description": "experience with modern libraries and frameworks such as React, Next.js, Vite, and React Native (Expo), as well as working with concepts like S.O.L.I.D, K.I.S.S, and D.R.Y. On the back end, I work with Node.js, TypeScript, REST APIs, relational and non-relational databases, tools and technologies such as ORMs (Prisma, Drizzle), Docker, and architectures like Hexagonal."
-  },
   "frontend": {
-    "description": "I have hands-on experience with modern libraries and frameworks such as React, Next.js, Vite, and React Native (Expo), as well as working with concepts like S.O.L.I.D, K.I.S.S, and D.R.Y. On the back end, I work with Node.js, TypeScript, REST APIs, relational and non-relational databases, tools and technologies such as ORMs (Prisma, Drizzle), Docker, and architectures like Hexagonal."
+    "description": "As a Front End Developer, I specialize in building interactive, user-friendly interfaces using modern JavaScript libraries and frameworks, with a strong focus on React. I leverage Reacts powerful hooks, such as useState, useEffect, and useContext, to efficiently manage component states, handle side effects, and share global state across components.",
+    "description2": "I stay updated with the latest trends in Front End development, continuously refining my skills with new React features, tools, and libraries."
+  },
+  "backend": {
+    "description": "As a Back End Developer, I focus on building scalable, efficient, and secure server-side applications using Node.js. I leverage the power of JavaScript on the server, utilizing frameworks like Express.js to build robust APIs, handle routing, and manage middleware effectively. I am experienced in creating RESTful services, and I also work with Docker for Containerizing services .",
+    "description2": "I also focus on writing clean, modular code and implementing proper authentication and authorization strategies, such as JWT (JSON Web Tokens), to secure APIs."
   },
   "techStack": "Tech Stack and Tools",
   "projects": {

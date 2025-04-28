@@ -27,7 +27,7 @@ export const projectsData: ProjectData[] = [
   {
     name: "New Santos Food",
     description: "New Santos Food is a functional ifood clone that allows you to order food from your favorite restaurants.",
-    descriptionPT: "A New Santos Food é um clone funcional do ifood que permite pedir comida de seus restaurantes favoritos (Todos os produtos são ficticios).",
+    descriptionPT: "A New Santos Food é um clone funcional do ifood que permite pedir comida de seus restaurantes favoritos (Toda aplicação é ficticia não vendo nenhum produto).",
     image: "/projects/default_image.png",
     url: "https://new-santos-food.vercel.app/",
   },
