@@ -23,7 +23,7 @@ const ConfettiButton = ({ icon, name, link }: ConfettiButtonProps) => {
   }
 
   return (
-    <Button variant="default" onClick={handleRouteChange} ref={refButton} className="max-w-[150px]">
+    <Button variant="default" onClick={handleRouteChange} ref={refButton} className="w-full">
       {icon}
       <p>{name}</p>
     </Button>
