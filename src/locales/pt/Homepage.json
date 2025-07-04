@@ -4,7 +4,7 @@
   "Projects": "Projetos",
   "title": {
     "1": "Desenvolvedor",
-    "2": "Fullstack"
+    "2": "de Software"
   },
   "subtitle1": "Movido pelo desejo de aprender e inovar,",
   "subtitle2": "Entusiasta de tecnologias de desenvolvimento web.",
@@ -12,35 +12,35 @@
     "senac": {
       "title": "Curso Tecnico - Tecnologia da informação",
       "date": "Agosto, 2021 - Agosto, 2023",
-      "description": "Curso técnico em Tecnologia da Informação, com foco em desenvolvimento de software e infraestrutura de TI."
+      "description": "Desenvolvimento de sistemas utilizando C#, .NET - Desenvolvimento Web utilizando HTML, CSS, JAVASCRIPT e ASP.NET -  Modelagem de dados - Linguagem SQL - Redes de computadores - Qualidade e testes de software"
     },
     "college": {
       "title": "Faculdade Decomplica - Sistemas de Informação",
       "date": "Março, 2022 - Março, 2026",
-      "description": "Global network, Desenvolvimento Mobile, Smart data structures, Data-base developer, Object-Oriented Developer, Internet of Things, Cloud."
+      "description": "Desenvolvimento de software - Modelagem de Software - Desenvolvimento Mobile - Sistemas de gerenciamento de banco de dados (SGBDs) - Cloud computing - UX/UI Design - Desenvolvimento Web utilizando Node.js - Object-Oriented Developer - Internet das coisas."
     },
     "react": {
       "title": "Desenvolvimento com React e Next.js",
       "date": "Março, 2023",
-      "description": "Aprendizado de hooks avançados como useReducer, useCallback, memoização, UX/UI, performance, cache, SEO."
+      "description": "Aprendizado de hooks avançados como useReducer - useCallback - memoização - UX/UI - performance - cache - SEO."
     },
     "node": {
       "title": "Desenvolvimento com Node.js e Express.js",
       "date": "Novembro, 2023",
-      "description": "Criação e consumo de APIs RESTful, integração com bancos de dados, autenticação e autorização, modelagem de banco de dados, segurança em aplicações web, utilização de ORMs."
+      "description": "Criação e consumo de APIs RESTful - integração com bancos de dados - autenticação e autorização - modelagem de banco de dados - segurança em aplicações web - utilização de ORMs."
     },
     "docker": {
       "title": "Docker",
       "date": "Fevereiro, 2024",
-      "description": "Aprendizado e prática em containerização de aplicações, criação de imagens Docker, gerenciamento de containers, orquestração com Docker Compose, integração com CI/CD."
+      "description": "Aprendizado e prática em containerização de aplicações - criação de imagens Docker - gerenciamento de containers - orquestração com Docker Compose - integração com CI"
     }
   },
   "moreAboutMe": {
     "title": "Mais sobre",
-    "description": "Experiência prática com bibliotecas e frameworks modernos como React, Next.js, Vite e React Native (Expo), além de trabalhar com conceitos como S.O.L.I.D, K.I.S.S e D.R.Y. No back-end, atuo com Node.js, Typescript, APIs REST, bancos relacionais e não-relacionais, ferramentas e tecnologias como ORMs (Prisma, Drizzle), Docker e arquiteturas como a Hexagonal."
+    "description": ""
   },
   "frontend": {
-    "description": "Experiência prática com bibliotecas e frameworks modernos como React, Next.js, Vite e React Native (Expo), além de trabalhar com conceitos como S.O.L.I.D, K.I.S.S e D.R.Y. No back-end, atuo com Node.js, Typescript, APIs REST, bancos relacionais e não-relacionais, ferramentas e tecnologias como ORMs (Prisma, Drizzle), Docker e arquiteturas como a Hexagonal."
+    "description": "Desenvolvedor de software com mais de 2 anos de experiência na área de desenvolvimento web, sempre em busca de novos aprendizados, possuo habilidades organizacionais e uma motivação essencial para alcançar a excelência, forte base no front-end porém com amplo conhecimento em back-end"
   },
   "techStack": "Tecnologias e Ferramentas",
   "projects": {

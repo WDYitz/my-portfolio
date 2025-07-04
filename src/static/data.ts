@@ -1,90 +1,102 @@
-import { randomUUID } from "crypto";
-
 export const techStack = [
   {
-    id: randomUUID,
-    name: "React",
+    name: "React", 
     icon: "react.png",
   },
   {
-    id: randomUUID,
-    name: "React Native",
-    icon: "react-native.png",
-  },
-  {
-    id: randomUUID,
-    name: "Expo",
-    icon: "expo.png",
-  },
-  {
-    id: randomUUID,
-    name: "Javascript",
-    icon: "javascript.png",
-  },
-  {
-    id: randomUUID,
-    name: "TypeScript",
-    icon: "typescript.png",
-  },
-  {
-    id: randomUUID,
-    name: "Node.js",
-    icon: "node.png",
-  },
-  {
-    id: randomUUID,
-    name: "Express",
-    icon: "express.png",
-  },
-  {
-    id: randomUUID,
-    name: "PostgreSQL",
-    icon: "postgresql.png",
-  },
-  {
-    id: randomUUID,
-    name: "Docker",
-    icon: "docker.png",
-  },
-  {
-    id: randomUUID,
-    name: "Tailwind CSS",
-    icon: "tailwindcss.png",
-  },
-  {
-    id: randomUUID,
-    name: "Zod",
-    icon: "zod.png",
-  },
-  {
-    id: randomUUID,
-    name: "React Router",
-    icon: "react-router.png",
-  },
-  {
-    id: randomUUID,
-    name: "Redux",
-    icon: "redux.png",
-  },
-
-  {
-    id: randomUUID,
-    name: "Prisma",
-    icon: "prisma.png",
-  },
-  {
-    id: randomUUID,
-    name: "Next.js",
+    name: "Next.js", 
     icon: "next.png",
   },
   {
-    id: randomUUID,
-    name: "Figma",
+    name: "React Native", 
+    icon: "react-native.png",
+  },
+  {
+    name: "Expo", 
+    icon: "expo.png",
+  },
+  {
+    name: "Javascript", 
+    icon: "javascript.png",
+  },
+  {
+    name: "TypeScript", 
+    icon: "typescript.png",
+  },
+  {
+    name: "Node.js", 
+    icon: "node.png",
+  },
+  {
+    name: "Express", 
+    icon: "express.png",
+  },
+  {
+    name: "JWT", 
+    icon: "jwt.png",
+  },
+  {
+    name: "PostgreSQL", 
+    icon: "postgresql.png",
+  },
+  {
+    name: "Docker", 
+    icon: "docker.png",
+  },
+  {
+    name: "Tailwind CSS", 
+    icon: "tailwindcss.png",
+  },
+  {
+    name: "Styled Components", 
+    icon: "styled-components.png",
+  },
+  {
+    name: "Sass", 
+    icon: "sass.png",
+  },
+  {
+    name: "Material UI", 
+    icon: "material-ui.png",
+  },
+  {
+    name: "Tailwind CSS", 
+    icon: "tailwindcss.png",
+  },
+  {
+    name: "Framer Motion", 
+    icon: "framer-motion.png",
+  },
+  {
+    name: "Zod", 
+    icon: "zod.png",
+  },
+  {
+    name: "Redux", 
+    icon: "redux.png",
+  },
+  {
+    name: "Prisma", 
+    icon: "prisma.png",
+  },
+  {
+    name: "Figma", 
     icon: "figma.png",
   },
   {
-    id: randomUUID,
-    name: "JWT",
-    icon: "jwt.png",
+    name: "React Query",  
+    icon: "react-query.png",
   },
-]
+  {
+    name: "React Hook Form", 
+    icon: "react-hook-form.png",
+  },
+  {
+    name: "React Router", 
+    icon: "react-router.png",
+  },
+  {
+    name: "CI - GitHub Actions", 
+    icon: "actions.png",
+  },
+];
