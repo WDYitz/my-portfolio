@@ -35,7 +35,6 @@ const AboutMe = () => {
     <main className="pb-6 flex flex-col items-start space-y-6 pt-16 px-5 sm:flex sm:justify-between md:gap-8 md:p-10 lg:p-20 lg:pt-28 lg:flex-row xl:px-40 2xl:px-80 2xl:pt-80 h-full">
       <div>
         <p className="text-4xl opacity-0" ref={titleRef}>{t("title")}</p>
-        <p className="text-lg mt-8 opacity-0" ref={paragraph1Ref}>{t("paragraphs.1")}</p>
         <p className="text-lg mt-8 opacity-0" ref={paragraph2Ref}>{t("paragraphs.2")}</p>
         <p className="text-lg mt-8 opacity-0" ref={paragraph3Ref}>{t("paragraphs.3")}</p>
         <p className="text-lg mt-8 opacity-0" ref={paragraph4Ref}>{t("paragraphs.4")}</p>
@@ -53,7 +52,7 @@ const AboutMe = () => {
           <CardContent className="w-full py-2 space-y-6 h-full justify-between flex flex-col">
             <p className="w-36">Curriculum</p>
             <Button variant="default" className="w-full" asChild>
-              <a href="/Resume PT_BR - Yitzhak B. Rodriguez.pdf" target="_blank" download rel="noopener noreferrer">
+              <a href="/Curriculo 2025.pdf" target="_blank" download rel="noopener noreferrer">
                 Download CV
                 <Download />
               </a>

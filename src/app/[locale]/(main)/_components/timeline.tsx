@@ -8,7 +8,7 @@ import {
   TimelineItem,
   TimelineSeparator,
   TimelineTitle,
-} from "@/components/ui/timeline"
+} from "@/components/ui/timeline";
 import { useLayoutEffect, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useWindowScroll } from "react-use";
