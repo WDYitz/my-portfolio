@@ -30,10 +30,10 @@ const Projects = () => {
     <main className="pb-6 flex flex-col items-start space-y-6 pt-16 px-5 sm:flex sm:justify-between md:gap-8 md:p-10 lg:p-20 lg:pt-28 xl:px-40 2xl:px-80 2xl:pt-80 h-full overflow-hidden">
       <div className="space-y-8">
         <AlertCard ref={alertCardRef} />
-        <p className="text-4xl opacity-0" ref={titleRef}>{t("title")}</p>
+        <p className="text-4xl">Freelance</p>
         <div className="w-full lg:grid lg:grid-cols-2 lg:space-y-0 md:gap-4 space-y-6 xl:grid xl:grid-cols-2 xl:gap-6 xl:space-y-0 ">
           {
-            projectsData.map((project, index) => (
+            projectsData.filter((project) => project.job).map((project, index) => (
               <ProjectCard
                 key={index}
                 ref={el => {
@@ -42,7 +42,25 @@ const Projects = () => {
                 title={project.name}
                 description={params.locale === "pt" ? project.descriptionPT : project.description}
                 url={project.url}
-                image={project?.image}
+                image={Array.isArray(project?.image) ? project.image[0] : project?.image}
+                isMobile={project?.mobile}
+              />
+            ))
+          }
+        </div>
+        <p className="text-4xl opacity-0" ref={titleRef}>{t("title")}</p>
+        <div className="w-full lg:grid lg:grid-cols-2 lg:space-y-0 md:gap-4 space-y-6 xl:grid xl:grid-cols-2 xl:gap-6 xl:space-y-0 ">
+          {
+            projectsData.filter((project) => !project.job).map((project, index) => (
+              <ProjectCard
+                key={index}
+                ref={el => {
+                  if (el) cardsRef.current.push(el);
+                }}
+                title={project.name}
+                description={params.locale === "pt" ? project.descriptionPT : project.description}
+                url={project.url}
+                image={Array.isArray(project?.image) ? project.image[0] : project?.image}
                 isMobile={project?.mobile}
               />
             ))

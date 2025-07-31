@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 
-import * as React from "react"
 import { Slot } from "@radix-ui/react-slot"
+import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
@@ -205,6 +205,7 @@ function TimelineTitle({
   )
 }
 
+
 export {
   Timeline,
   TimelineContent,
@@ -213,5 +214,6 @@ export {
   TimelineIndicator,
   TimelineItem,
   TimelineSeparator,
-  TimelineTitle,
+  TimelineTitle
 }
+
