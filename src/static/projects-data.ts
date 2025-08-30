@@ -20,9 +20,9 @@ export const projectsData: ProjectData[] = [
     job: true,
   },
   {
-    name: "Restaurante Deck Lounge - Cardápio",
+    name: "Restaurante Deck Lounge - Menu",
     description:
-      "This project is a Freelance, where i built a menu page for the restaurant, built with Vite and Tailwind CSS.",
+      "This project is a Freelance, where i built a menu for the restaurant, built with Vite and Tailwind CSS.",
     descriptionPT:
       "Esse projeto é um Freelancer, onde desenvolvi um cardápio para o restaurante, construída com Vite e Tailwind CSS.",
     image: ["/projects/cardapio.png", "/projects/cardapio_2.png"],
