@@ -1,4 +1,4 @@
-import Header from "@/components/header";
+
 import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     default: "Yitzhak B. Rodriguez",
     template: '%ns | Yitzhak B. Rodriguez',
   },
-  description: "Hi im Yitzhak B. Rodriguez Fullstack Developer.",
+  description: "Olá sou Yitzhak B. Rodriguez Software Developer.",
 };
 
 interface RootLayoutProps {
@@ -23,8 +23,7 @@ export default function RootLayout({
   return (
 
     <html lang="en">
-      <body className={`${poppins} antialiased dark overflow-x-hidden`}>
-        <Header />
+      <body className={`${poppins.className} antialiased dark overflow-x-hidden`}>
         {children}
       </body>
     </html>
