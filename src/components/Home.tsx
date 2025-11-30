@@ -1,9 +1,12 @@
+"use client"
 import { motion } from 'motion/react';
 import { Linkedin, Github, Mail, GraduationCap, Briefcase, Award, Code2 } from 'lucide-react';
 import { ImageWithFallback } from '@/components/ImageWithFallback';
 import { TechStack } from '@/components/Teckstack';
+import { useEffect, useRef } from 'react';
 
 export const Home = () => {
+  const imageRef = useRef<HTMLDivElement>(null);
   const experiences = [
     {
       icon: <GraduationCap className="w-5 h-5" />,
@@ -60,6 +63,11 @@ export const Home = () => {
       transition: { duration: 0.5 }
     }
   };
+
+  useEffect(() => {
+    const animation = "motion-scale-in-[0.43] motion-translate-x-in-[-30%] motion-translate-y-in-[40%] motion-opacity-in-[0%] motion-rotate-in-[-10deg] motion-blur-in-[5px] motion-duration-[0.53s]/scale motion-duration-[0.57s]/translate motion-duration-[0.64s]/opacity motion-duration-[0.63s]/rotate motion-duration-[0.35s]/blur delay-500"
+    imageRef.current?.classList.add(...animation.split(" "));
+  }, [])
 
   return (
     <div className="pt-16">
@@ -121,7 +129,7 @@ export const Home = () => {
                 transition={{ delay: 0.4 }}
                 className="text-white/70 mb-8 text-lg"
               >
-                Movido pelo desejo de aprender e inovar. Entusiasta de tecnologias de desenvolvimento web com forte experiência em front-end e back-end.
+                Movido pelo desejo de aprender e inovar. Entusiasta de tecnologias de desenvolvimento web com forte base no frontend.
               </motion.p>
 
               <motion.div
@@ -170,7 +178,7 @@ export const Home = () => {
             <motion.div
               className="flex justify-center lg:justify-end"
             >
-              <div className="relative motion-scale-in-[0.43] motion-translate-x-in-[-30%] motion-translate-y-in-[40%] motion-opacity-in-[0%] motion-rotate-in-[-10deg] motion-blur-in-[5px] motion-duration-[0.53s]/scale motion-duration-[0.57s]/translate motion-duration-[0.64s]/opacity motion-duration-[0.63s]/rotate motion-duration-[0.35s]/blur delay-500">
+              <div className="relative" ref={imageRef}>
                 <motion.div
                   animate={{
                     scale: [1, 1.05, 1],

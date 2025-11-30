@@ -16,7 +16,7 @@ export function Projects() {
       image: '/projects/decklounge.png',
       technologies: ['React', 'Next', 'TypeScript', 'Tailwind CSS', 'Vercel'],
       github: 'https://github.com',
-      demo: 'https://exemplo.com'
+      demo: 'https://restaurante-deck-lounge.vercel.app/'
     },
     {
       id: 1,
@@ -26,7 +26,7 @@ export function Projects() {
       image: '/projects/cardapio.png',
       technologies: ['React', 'Next', 'TypeScript', 'Tailwind CSS', 'Vercel'],
       github: 'https://github.com',
-      demo: 'https://exemplo.com'
+      demo: 'https://restaurantedecklounge.vercel.app/cardapio'
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ export function Projects() {
       image: '/projects/artimpressa.png',
       technologies: ['Wordpress', 'Hostinger', 'HTML', 'CSS'],
       github: 'https://github.com',
-      demo: 'https://exemplo.com'
+      demo: 'https://graficaartimpressa.com.br/'
     },
     {
       id: 3,
@@ -45,7 +45,7 @@ export function Projects() {
       description: 'Plataforma de gerenciamento de inventário que permite aos usuários criar e gerenciar seu estoque, controlando entradas e saídas de produtos com insights detalhados e personalizados.',
       image: '/projects/supplify.png',
       technologies: ['React', 'Next', 'TypeScript', 'PrismaORM', 'PostgreSQL', 'Docker', 'Tailwind CSS'],
-      github: 'https://github.com'
+      github: 'https://github.com/WDYitz/Supplify'
     },
     {
       id: 4,
@@ -54,7 +54,7 @@ export function Projects() {
       description: 'Plataforma de gestão financeira que utiliza IA para monitorar transações e fornecer insights personalizados, facilitando o controle orçamentário dos usuários.',
       image: '/projects/finance_ai.png',
       technologies: ['React', 'Next', 'TypeScript', 'Recharts', 'Context API'],
-      github: 'https://github.com'
+      github: 'https://github.com/WDYitz/finance-ai'
     },
     {
       id: 5,
@@ -63,8 +63,8 @@ export function Projects() {
       description: 'Aplicativo móvel para pedidos de comida, permitindo aos usuários navegar por restaurantes locais, personalizar pedidos e acompanhar entregas em tempo real.',
       image: '/projects/nsf.png',
       technologies: ['React', 'Next', 'PostgreSQL', 'OAuth2', 'Tailwind CSS'],
-      github: 'https://github.com',
-      demo: 'https://exemplo.com'
+      github: 'https://github.com/WDYitz/new-santos-food',
+      demo: 'https://new-santos-food.vercel.app/'
     },
   ];
 
