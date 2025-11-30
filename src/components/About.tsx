@@ -235,14 +235,16 @@ export const About = () => {
             <p className="text-white/70 mb-8 text-lg max-w-2xl mx-auto">
               Confira meus projetos e veja como transformo ideias em realidade através do código.
             </p>
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href="https://www.github.com/WDYitz"
+              target="_blank"
               className="inline-flex items-center gap-2 px-8 py-4 bg-orange-500 hover:bg-orange-600 rounded-lg transition-colors"
             >
               Ver Projetos
               <ExternalLink size={20} />
-            </motion.button>
+            </motion.a>
           </motion.div>
         </div>
       </section>
