@@ -8,7 +8,7 @@ interface ProjectData {
   job?: boolean;
 }
 
-export const projectsData: ProjectData[] = [
+export const projects: ProjectData[] = [
   {
     name: "Restaurante Deck Lounge - Landing Page",
     description:
